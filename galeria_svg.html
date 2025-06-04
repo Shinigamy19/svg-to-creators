@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Galería de Iconos SVG</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <h1>Galería de Iconos SVG</h1>
+  <div class="icon-gallery">
+    
+    <div class="icon-item">
+      <a href="output_svgs/icono1.svg" target="_blank">
+        <img src="output_svgs/icono1.svg" alt="icono1">
+      </a>
+    </div>
+
+    <div class="icon-item">
+      <a href="output_svgs/icono2.svg" target="_blank">
+        <img src="output_svgs/icono2.svg" alt="icono2">
+      </a>
+    </div>
+  </div>
+  <div class="gallery-container">
+    <h1>Sube una imagen y conviértela a SVG</h1>
+    <br>
+    <p>Sube una imagen en formato PNG o WebP y la convertiremos a SVG para agregarla a la galería.</p>
+    <br>
+    <input type="file" id="imageInput" accept="image/png, image/webp">
+    <br>
+    <button onclick="convertAndAddToGallery()">Convertir y Agregar</button>
+    <br>
+    <div class="gallery" id="output_svgs">
+      <!-- Aquí se agregarán los SVG convertidos -->
+    </div>
+
+  </div>
+  
+  <script src="js/convert-to-gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #4e4e4e;
+}
+h1, p {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fdfdfd;
+}
+input, button {
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+}
+.icon-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.icon-item {
+  width: 100px;
+  height: 100px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-item img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
