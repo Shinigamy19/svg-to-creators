@@ -8,10 +8,17 @@ h1, p {
     margin-bottom: 40px;
     color: #fdfdfd;
 }
-input, button {
+input{
   padding: 10px;
   margin: 10px auto;
   display: block;
+  color: #ffffff;
+} 
+button {
+  padding: 10px;
+  margin: 10px auto;
+  display: block;
+  color: #000000;
 }
 .icon-gallery {
   display: flex;
@@ -38,4 +45,11 @@ input, button {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.item-svg-name {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
 }

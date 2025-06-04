@@ -3,14 +3,14 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Galería de Iconos SVG</title>
+  <title>SVG Icon Gallery</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <div style="text-align: right; margin-bottom: 10px;">
-    <a href="galery_svg.html" id="cambioIdioma">English</a>
+    <a href="galeria_svg.html" id="languageToggle">Español</a>
   </div>
-  <h1>Galería de Iconos SVG</h1>
+  <h1>SVG Icon Gallery</h1>
   <div class="icon-gallery">
     
     <div class="icon-item">
@@ -26,13 +26,13 @@
     </div>
   </div>
   <div class="gallery-container">
-    <h1>Sube una imagen y conviértela a SVG</h1>
+    <h1>Upload an Image and Convert it to SVG</h1>
     <br>
-    <p>Sube una imagen en formato PNG o WebP y la convertiremos a SVG para agregarla a la galería.</p>
+    <p>Upload an image in PNG or WebP format and we will convert it to SVG to add it to the gallery.</p>
     <br>
     <input type="file" id="imageInput" accept="image/png, image/webp">
     <br>
-    <button onclick="convertAndAddToGallery()">Convertir y Agregar</button>
+    <button onclick="convertAndAddToGallery()">Convert and Add</button>
     <br>
     <div class="gallery" id="output_svgs">
       <!-- Aquí se agregarán los SVG convertidos -->

@@ -1,7 +1,7 @@
 function convertAndAddToGallery() {
   const input = document.getElementById('imageInput');
   if (!input.files.length) {
-    alert("Select an image first.");
+    alert("Selecciona una imagen primero.");
     return;
   }
 
@@ -24,8 +24,8 @@ function convertAndAddToGallery() {
       const gallery = document.getElementById("output_svgs");
       const div = document.createElement("div");
       div.className = "gallery-item item-svg-name";
-      div.innerHTML = ` <p class"item-svg-name">Press the image to download the SVG</p>
-                        <a href="${svgUrl}" download="${file.name.replace(/\.\w+$/, '.svg')}" title="Download SVG">
+      div.innerHTML = ` <p class"item-svg-name">Presiona la imagen para descargar el SVG</p>
+                        <a href="${svgUrl}" download="${file.name.replace(/\.\w+$/, '.svg')}" title="Descargar SVG">
                             <img src="${svgUrl}" alt="icon">
                         </a>`;
       gallery.appendChild(div);
