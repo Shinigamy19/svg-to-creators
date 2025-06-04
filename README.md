@@ -10,7 +10,7 @@ All icons are embedded using standard `<img>` tags pointing to individual `.svg`
 - Icons served directly from `.svg` files
 - Mobile-friendly layout
 - Easy to extend with your own icons
-- View online: [Live Gallery on GitHub Pages](https://yourusername.github.io/your-repo-name/galeria_svg.html)
+- View online: [Live Gallery on GitHub Pages](https://shinigamy19.github.io/svg-to-creators/galery_svg.html)
 
 ### How to Use
 1. Clone or download the repository.
@@ -30,7 +30,7 @@ Todos los iconos se incrustan usando etiquetas `<img>` que enlazan directamente 
 - Iconos cargados directamente desde archivos `.svg`
 - Diseño adaptable para móviles
 - Fácil de ampliar con tus propios iconos
-- Ver en línea: [Galería en GitHub Pages](https://yourusername.github.io/your-repo-name/galeria_svg.html)
+- Ver en línea: [Galería en GitHub Pages](https://shinigamy19.github.io/svg-to-creators/galeria_svg.html)
 
 ### Cómo usar
 1. Clona o descarga el repositorio.
